@@ -45,8 +45,8 @@ end
 def full?(board)
   if board.all? {|i| i == "X" || i == "O"}
     return true
-  else
-    return false
+  #else
+  #  return false
 end
 
 # Build a method #draw? that accepts a board and returns true if the board has
