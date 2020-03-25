@@ -44,7 +44,7 @@ end
 # in the board contains either an "X" or an "O". For example:
 def full?(board)
   if board.all? {|i| i == "X" || i == "O"}
-    return true
+  #  return true
   #else
   #  return false
 end
